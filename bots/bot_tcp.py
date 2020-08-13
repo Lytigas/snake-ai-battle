@@ -90,10 +90,6 @@ class SequenceBot(TronBot):
         return self.seq[self.counter % len(self.seq)]
 
 
-seq = ["u"] * 3 + ["r"] * 20 + ["d"] * 5
 seq = ["u", "r"]
-if len(sys.argv) > 1:
-    seq = ["u"]
-
 bot = SequenceBot("my_seq_bot", seq)
 print(bot.run())
