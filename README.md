@@ -92,7 +92,7 @@ Tip: Check out `--help` on the included binaries. They may or may not have usefu
 
 ## Submitting and Other Ground Rules
 
-You may submit either a x86_64-linux-gnu ELF binary, a well-configured (!) docker image, or source code and reasonable running instructions. Source code is preferred.
+You may submit either a x86_64-linux-gnu ELF binary, a well-configured (!) docker image, or source code along with necessary assets and reasonable running instructions. Source code is preferred.
 
 No network requests or outside communications are allowed. Bots must be entirely self-contained.
 
