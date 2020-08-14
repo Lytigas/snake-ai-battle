@@ -2,7 +2,7 @@
 
 ## Game Description
 
-It's two-player snake, whoever crashes last wins. If both players crash at the same time, it's a tie. Also known as Tron light cycles. Players collide with boundary walls.
+It's two-player snake, except the snakes have infinite length. Whoever crashes last wins. If both players crash at the same time, it's a tie. Also known as Tron light cycles. Players collide with boundary walls.
 
 The game is played on a 32x32 board, indexed and with directions as shown:
 
