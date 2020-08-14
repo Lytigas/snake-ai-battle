@@ -86,7 +86,7 @@ class SequenceBot(TronBot):
     def next_move(self, my_pos, their_pos):
         print(my_pos, their_pos)
         self.counter += 1
-        time.sleep(0.5)
+        time.sleep(0.05)
         return self.seq[self.counter % len(self.seq)]
 
 

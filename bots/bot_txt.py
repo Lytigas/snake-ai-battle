@@ -16,4 +16,4 @@ while True:
     # This is how you might do print debugging:
     print("Moving", seq[counter % len(seq)], file=sys.stderr)
     counter += 1
-    time.sleep(0.2)
+    time.sleep(0.05)
